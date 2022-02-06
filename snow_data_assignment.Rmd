@@ -160,7 +160,7 @@ headers <- pdf_text('https://snowstudies.org/wp-content/uploads/2022/02/Serially
 
 4. Use the `map` function to read in both meteorological files. Display a summary of your tibble.
 
-5. Make a line plot of mean temp in by year by site (using the `air temp [K]` variable). Is there anything suspicious in the plot? Adjust your filtering if needed.
+5. Make a line plot of mean temp by year by site (using the `air temp [K]` variable). Is there anything suspicious in the plot? Adjust your filtering if needed.
 
 6. Write a function that makes line plots of monthly average temperature at each site for a given year. Use a for loop to make these plots for 2005 to 2010. Are monthly average temperatures at the Senator Beck Study Plot ever warmer than the Snow Angel Study Plot?
 Hint: https://ggplot2.tidyverse.org/reference/print.ggplot.html
